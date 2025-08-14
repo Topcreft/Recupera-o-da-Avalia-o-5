@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Parcelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Parcelas</h1>
+        <div class="input-group">
+            <label for="totalCompra">Valor Total da Compra (R$):</label>
+            <input type="number" id="totalCompra" placeholder="Ex: 120.00" step="0.01">
+        </div>
+        <button onclick="calcularParcelas()">Calcular Parcelas</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
