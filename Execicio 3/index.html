@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Multa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificador de Multa</h1>
+        <div class="input-group">
+            <label for="velocidadePermitida">Velocidade Permitida (km/h):</label>
+            <input type="number" id="velocidadePermitida" placeholder="Ex: 80">
+        </div>
+        <div class="input-group">
+            <label for="velocidadeCondutor">Velocidade do Condutor (km/h):</label>
+            <input type="number" id="velocidadeCondutor" placeholder="Ex: 95">
+        </div>
+        <button onclick="verificarMulta()">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
